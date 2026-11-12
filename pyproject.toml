@@ -1,0 +1,17 @@
+[project]
+name = "outlier-detection-cleaning-trade-offs-imbalanced-data-scikit-learn-pipelines"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "DEVHYDAR01", email = "aliyuahmaad60@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+outlier-detection-cleaning-trade-offs-imbalanced-data-scikit-learn-pipelines = "outlier_detection_cleaning_trade_offs_imbalanced_data_scikit_learn_pipelines:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
